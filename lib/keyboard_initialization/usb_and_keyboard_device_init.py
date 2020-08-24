@@ -16,7 +16,7 @@ def init_uinput_device():
 
 def init_usb_dev():
     USB_VENDOR = 0x046d
-    USB_PRODUCT = (0x0c32b, 0xc335)
+    USB_PRODUCT = (0x0c32b, 0xc335, 0xc33f)
     USB_IF = 1  # Interface
     USB_TIMEOUT = 5  # Timeout in MS
 
